@@ -1,0 +1,12 @@
+.imgCarrito {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(2px 4px 6px rgba(192, 128, 129, 0.5)); 
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .imgCarrito:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 4px 10px rgba(192, 128, 129, 0.8)); 
+  }
