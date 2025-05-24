@@ -8,12 +8,12 @@ const Item = ({id, nombre, precio, img}) => {
 
   return (
     <div className='cardProducto'>
-        <img src={img} alt={nombre} />
-        <h3>Nombre: {nombre}</h3>
+        <img src={img} alt={nombre} className='imgProducto' />
+        <h3>{nombre}</h3>
         <p>Precio: {precio}</p>
-        <p>ID: {id}</p>
+        
         <Link to={`/item/${id}`}>
-        <button>Ver Detalles</button>
+        <button className='btn-pink'>Ver Detalles</button>
         </Link>
     </div>
   )

@@ -6,21 +6,25 @@ const NavBar = () => {
   return (
     <header>
       <Link to="/">
-  <h1>Sport</h1>
+  <img className='LogoSport' src={"../public/imagenes/imagenes/sport.png"} alt="Logo Sport" />
     </Link>
         
         <nav>
             <ul>
                 <li>
-                  <NavLink to="/categoria/TopsRemeras">Tops/Remeras</NavLink>
+                  <NavLink to="">Inicio</NavLink>
                 </li>
                 <li>
-                <NavLink to="/categoria/BuzosCamperas">Buzos/Camperas</NavLink>
+                  <NavLink to="categoria/Tops">Tops</NavLink>
                 </li>
                 <li>
-                <NavLink to="/categoria/CalzasShorts">Calzas/Shorts</NavLink>
+                <NavLink to="categoria/Buzos">Buzos</NavLink>
+                </li>
+                <li>
+                <NavLink to="categoria/Calzas">Calzas</NavLink>
                 </li>
             </ul>
+            
         </nav>
 
         <CartWidget/>

@@ -1,87 +1,42 @@
 .contenedorItem {
-    background-color: #C08081;
-    border-radius: 8px;
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 600px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  
-  .contenedorItem h2 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    color: #fff;
-  }
-  
- 
-  .contenedorItem h3 {
-    font-size: 1.4rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: #fff;
-  }
-  
-  
-  .contenedorItem img {
-    max-width: 70%;
-    margin: 1rem 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  }
-  
- 
-  .contenedorItem p {
-    font-size: 1rem;
-    color: #fff;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    text-align: justify;
-  }
-  
-  
-  .contenedorItem a {
-    display: inline-block;
-    background-color: #ffffff;
-    color: #C08081;
-    padding: 0.8rem 1.5rem;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contenedorItem a:hover {
-    background-color: #C08081;
-    color: #ffffff;
-  }
-  
-  
-  .itemCountContainer {
-    margin-top: 1.5rem;
-  }
-  
-  .itemCountContainer button {
-    background-color: #fff;
-    color: #C08081;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .itemCountContainer button:hover {
-    background-color: #C08081;
-    color: #fff;
-  }
-  
-  .itemCountContainer span {
-    font-size: 1.5rem;
-    color: #fff;
-    margin: 0 1rem;
-  }
+  background-color: #000;
+  color: white;
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 16px;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
+  text-align: center;
+}
+
+.imgProducto {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  margin-top: 15px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.btn-pink {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff4fa3;
+}
